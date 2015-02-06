@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="e7007422-33ca-48c5-9f6f-4881f9d94845" Publisher="CN=Ray" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>CalculatorAPP</DisplayName>
+    <PublisherDisplayName>MS</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CalculatorAPP.App">
+      <VisualElements DisplayName="CalculatorAPP" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="CalculatorAPP" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="noLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
